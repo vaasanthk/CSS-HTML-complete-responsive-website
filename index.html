@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quest</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+        <li><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img src="./images/button.png" alt="" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore The colourful world</h2>
+        <div class="line"></div>
+        <h1>Wonderful Gift</h1>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </header>
+
+    <!-- === Events === -->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="./images/peakpx.png" alt="" />
+          <h4>Alps Camp Trek</h4>
+          <p>
+            Nufenenpass is located in the Swiss Alps. It is one of the tallest
+            mountain passes in the country of Switzerland. You will take a bus
+            to the top of a mountain pass of Nufenen Pass Passhole. The area is
+            breathtaking, surrounded by panoramic views of mountains. There are
+            also two alpine lakes nearby for those wanting to be near water.
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+          <img src="./images//switzerland-tour.png" alt="" />
+          <h4>Country Tour</h4>
+          <p>
+            Discover all sights and landmarks Switzerland has to offer from the
+            comfort of the train. The Grand Train Tour of Switzerland merges the
+            most beautiful panoramic lines into one unique route. There is no
+            prescribed direction or duration. You can hop on and off wherever
+            you please. Whether at Zermatt or St. Moritz, in the Canton of
+            Ticino or the Lavaux, at the Rhine Falls or Lake Lucerne. And best
+            of all: You can experience the entire tour with only one single
+            ticket – the Swiss Travel Pass.
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>
+          Famous landmarks everywhere you look: the variety of different sights
+          to see in Switzerland is truly incredible. Discover glaciers, mountain
+          worlds, rivers and impressive buildings. Or explore museums and
+          institutions that especially symbolise our country’s identity.
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS & DESTINATION</h1>
+          <div class="line"></div>
+          <p>
+            The Grand Tour of Switzerland takes you on an easy road trip through
+            the most spectacular areas and past the most beautiful highlights of
+            our country. Discover the most attractive offers and book your dream
+            route now, including overnight stays – it couldn't be more
+            straightforward!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="./images/valley_1.png" alt="" />
+            <img src="./images/skiing_1.png" alt="" />
+            <img src="./images/man_watch_1.png" alt="" />
+            <img src="./images/switzerland-matterhorn.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <!-- <div class="line-footer"></div> -->
+      <p>
+        Komputerfutzen AG, Herr Doktor X. Schmidt, Denkmaschinenstrasse 1024,
+        4096 Zürich, SWITZERLAND | 00+41-22-767-6111 | Email:
+        contactus@switztoursim.com
+      </p>
+      <p>Copyright © 2023 Switzerland Tourism</p>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn")
+      const navlinks = document.querySelector(".nav-links")
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu")
+      })
+    </script>
+  </body>
+</html>
