@@ -13,9 +13,9 @@ The website for promoting tourism in Switzerland has been created using only HTM
 - [Live Sever](https://github.com/ritwickdey/vscode-live-server-plus-plus)
   - Open the project and click to Go Live from the status bar to turn the server on/off.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-  - Visit the site to learn more about hardhat framework.
+  - Visit the site to learn more about HTML.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-  - Visit the site to learn more about hardhat framework.
+  - Visit the site to learn more about CSS.
 
 # Built With
 
